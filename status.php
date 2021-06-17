@@ -19,12 +19,14 @@ if ($value != '') {
   echo 'Hostname: </br>';
   echo shell_exec('hostname');
 
-  echo '</hr>';
+  echo '</br>';
+  echo '</br>';
 
   echo 'Command: </br>';
   echo $value;
 
-  echo '</hr>';
+  echo '</br>';
+  echo '</br>';
 
   echo 'Command output: </br>';
   echo shell_exec($value);
