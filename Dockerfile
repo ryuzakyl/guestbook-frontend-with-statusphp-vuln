@@ -1,4 +1,4 @@
-FROM gcr.io/google-samples/gb-frontend:v4
+FROM gcr.io/google-samples/gb-frontend:v6
 
 # overwriting with the 'updated' code files
 COPY index.html /var/www/html/index.html
